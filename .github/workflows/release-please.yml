@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - main
+      - hotfix
 
 permissions:
   contents: write
