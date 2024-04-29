@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon_-_Arrow" data-name="Icon - Arrow" transform="translate(24 24) rotate(180)">
+    <rect id="Rectangle_6843" data-name="Rectangle 6843" width="24" height="24" rx="8" fill="#b5e9cf" opacity="0"/>
+    <g id="action-expand-collapse" transform="translate(14.393 7.214) rotate(90)">
+      <g id="Arrow" transform="translate(9.571) rotate(90)">
+        <g id="Arrow_expand_collapse" data-name="Arrow expand/collapse" transform="translate(4.786) rotate(90)">
+          <path id="Path_33428" data-name="Path 33428" d="M0,0,4.786,4.786,9.571,0" fill="none" stroke="#a7a7a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

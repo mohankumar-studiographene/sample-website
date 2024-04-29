@@ -1,0 +1,32 @@
+.select-input{
+    max-width: 50%;
+    .select-input-prefix__control {
+        min-height: 35px;
+        margin-bottom: 0px;
+        cursor: pointer !important;
+        .detail_prefix__placeholder {
+          padding-left: 2px;
+          font-size: 14px;
+        }
+      }
+
+      .select-input-prefix__menu {
+        border-radius: 5px;
+        border: none;
+        max-height: 200px;
+        z-index: 2;
+        cursor: pointer !important;
+  
+        .select-input-prefix__menu-list {
+          cursor: pointer !important;
+          background-color: #ffffff;
+          border-radius: 5px;
+          border: none;
+          max-height: 190px;
+          .select-input-prefix__option {
+            cursor: pointer !important;
+          }
+        }
+      }
+    
+}

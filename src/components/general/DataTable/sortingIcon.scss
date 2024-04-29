@@ -1,0 +1,34 @@
+@import '@/assets/scss/variables.scss';
+.svg-sort-icon {
+  path {
+    fill: none;
+    stroke: #2e2e2e;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+  }
+
+  &.light-icon {
+    path {
+      stroke: $white;
+    }
+  }
+  &.desc-order {
+    path.svg-dsc-icon {
+      stroke: #f16d4d;
+    }
+  }
+  &.asc-order {
+    path.svg-asc-icon {
+      stroke: #f16d4d;
+    }
+  }
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .for-portrait-mob {
+    display: block !important;
+  }
+  .for-web-lsp {
+    display: none;
+  }
+}

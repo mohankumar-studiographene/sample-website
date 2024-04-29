@@ -1,0 +1,8 @@
+@mixin set-font($size, $color: #262626, $family: null, $weight: normal, $lh: normal, $ls: normal) {
+  color: $color;
+  font-size: $size;
+  font-family: $family, sans-serif;
+  font-weight: $weight;
+  line-height: $lh;
+  letter-spacing: $ls;
+}

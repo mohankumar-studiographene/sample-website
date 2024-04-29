@@ -1,0 +1,15 @@
+@import '@/assets/scss/variables';
+.separator{
+  width: block;
+  border-bottom:1px solid #ddd ;
+  margin: 10px 0;
+}
+.input-container{
+  display: flex;
+  margin: 20px 0;
+  gap:3%;
+  & > div{
+    width: 30%;
+  }
+}
+.mr-10{margin-right: 10px;}

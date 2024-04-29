@@ -1,0 +1,314 @@
+@import '@/assets/scss/variables.scss';
+@import '@/assets/scss/breakpoints.scss';
+
+.table-overflow-scroll {
+  overflow-x: auto;
+  border-radius: 10px 10px 0 0;
+}
+.table-sort-icon-wrp {
+  display: inline-block;
+  margin-left: 8px;
+}
+.active-filter {
+  width: 120px;
+  height: 30px;
+  background: $bg-green;
+  border-radius: 10px;
+  line-height: 27px;
+  text-align: center;
+  .btn-text {
+    font-size: 14px;
+    color: $black;
+    display: inline-block;
+    font-family: Arial;
+    margin-left: 5px;
+  }
+}
+.sort-columns-btn,.sc-ddm-trigger {
+  width: 120px;
+  height: 30px;
+  background: $bg-grey-2;
+  border-radius: 10px;
+  line-height: 27px;
+  text-align: center;
+  .btn-text {
+    font-size: 14px;
+    color: $black;
+    display: inline-block;
+    font-family: Arial;
+    margin-left: 5px;
+  }
+  &:hover{
+    background: $bg-light-green;
+    .btn-text{
+      color: $black;
+    }
+  }
+}
+.table-header {
+  margin: 12px 0;
+}
+.table-heading {
+  color: $black;
+  font-size: 12px;
+  font-family: Arial;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+.table {
+  border: none;
+  width: 100%;
+  border-spacing: 0px;
+  @-moz-document url-prefix() {
+    border-collapse: separate;
+    border-spacing: 0 0.3px;
+  }
+  :global(.table-row:first-of-type th) {
+    font-family: Arial;
+    background-color: $bg-grey-3;
+  }
+  :global(.table-row:not(:only-of-type):last-of-type th) {
+    background-color: $bg-grey-4;
+  }
+  :global(.table-row:not(:only-of-type) .table-heading) {
+    height: 24px;
+  }
+
+  tr {
+    &:hover > .isEditable {
+      padding: 0 !important;
+      cursor: pointer !important;
+      .trigger-popup-cell {
+        padding: 7px 6px 7px 10px;
+        background: $bg-light-green;
+        border-radius: 6px;
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .trigger-cell-text {
+          display: inline-block;
+          max-width: calc(100% - 25px);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      .edit-details {
+        display: inline-block;
+      }
+    }
+    .edit-details {
+      display: none;
+    }
+
+    td {
+      background-color: $white;
+      word-break: break-word;
+      border-bottom: 2px solid $bg-grey-2 !important;
+      @include media(sm) {
+        word-break: keep-all;
+      }
+    }
+
+    &:hover > td {
+      background: $bg-green;
+    }
+    :last-child {
+      td {
+        border-bottom: 0 !important;
+      }
+    }
+    td,
+    th {
+      margin: 0;
+      padding: 5px 10px;
+      border: none;
+      text-align: left;
+      height: 36px;
+      color: $black;
+      font-size: 12px;
+      line-height: 15px;
+      max-width: 170px;
+      vertical-align: middle;
+      &:first-child {
+        border-right: 0px solid $white;
+        position: sticky !important;
+        z-index: 1;
+      }
+    }
+    th {
+      font-family: Arial;
+      border-bottom: none;
+      white-space: nowrap;
+      color: $black;
+    }
+  }
+}
+.data-pagination-wrp {
+  margin-bottom: 20px;
+  background: $bg-grey-4;
+  border-radius: 0 0 10px 10px;
+  height: 46px;
+  padding: 10px 20px;
+  text-align: center;
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    padding: 10px;
+  }
+}
+.data-pagination {
+  gap: 5px;
+}
+.paginate-box {
+  width: 24px;
+  height: 24px;
+  background: $white;
+  border-radius: 5px;
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+.pagination-info {
+  padding: 0 5px 0 5px;
+  font-size: 12px;
+}
+.next-paginate {
+  img {
+    transform: rotate(180deg);
+  }
+}
+.load-more-button {
+  height: 24px;
+  font-size: 14px;
+  font-family: Arial;
+  img {
+    margin-right: 5px;
+  }
+  small {
+    font-size: 14px;
+    font-family: Arial;
+  }
+}
+.total-count {
+  font-size: 12px;
+  display: inline-block;
+}
+.empty-cell {
+  cursor: default;
+  * {
+    display: none !important;
+  }
+}
+.no-data-found {
+  position: absolute;
+  bottom: calc(50% - 30px);
+  left: calc(50% - 50px);
+  z-index: 2;
+  font-size: 14px;
+  font-family: Arial;
+  background: $white;
+  padding: 5px;
+  border-radius: 5px;
+}
+tr.empty-row td {
+  background-color: $white !important;
+  pointer-events: none;
+}
+.row-length-wrp {
+  font-size: 12px;
+  font-family: Arial;
+  gap: 5px;
+  :global(.error-msg) {
+    display: none;
+  }
+  :global(.dd__value-container) {
+    width: 40px;
+  }
+}
+.data-entries {
+  font-size: 12px;
+  font-family: Arial;
+}
+.order-child {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.for-portrait-mob {
+  display: none;
+}
+
+.select-columns-wrp {
+  position: relative;
+  .sc-ddm-trigger {
+    width:158px;
+  }
+  .ddm-active-button{
+    background: $bg-light-green;
+    .btn-text{
+      color: $black;
+    }
+  }
+  .tc-dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 10px);
+    z-index: 3;
+    width: 166px;
+    padding: 0;
+    background: $white;
+    box-shadow: 0 7px 16px rgba(199, 199, 199, 0.7);
+    border-radius: 7px;
+    border-top: 8px solid $white;
+    border-bottom: 8px solid $white;
+    height: 210px;
+    .col-opt-wrp {
+      height: 158px;
+      overflow: auto;
+      border-bottom: 1px solid $bg-grey-3;
+      margin-bottom: 5px;
+      ul {
+        li {
+          word-break: break-word;
+          height: 35px;
+          padding: 5px 10px;
+          &.tbl-checkbox-disable {
+            opacity: 0.7;
+            *,
+            label {
+              cursor: default !important;
+            }
+          }
+          &:hover {
+            background: $bg-grey-2;
+          }
+          label {
+            display: flex;
+          }
+        }
+      }
+    }
+    .sl-col-apply {
+      float: right;
+      margin-right: 10px;
+      height: 35px;
+  }
+  }
+}
+.tbl-checkbox {
+  display: block;
+}
+.disable-click{
+  pointer-events: none;
+}
+.tbl-size-dropdown{
+  min-width: 80px;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .for-portrait-mob {
+    display: block !important;
+  }
+  .for-web-lsp {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+$countDownColor: rgb(12, 131, 125);
+
+.countDown {
+  height: 50px;
+  width: 120px;
+  padding: 0 15px;
+  background-color: $countDownColor;
+  border: none;
+  color: white;
+  border-radius: 4%;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed; 
+    opacity: 50%;
+  }
+}
+
+.linkCountDown {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.disabled {
+  cursor: not-allowed; 
+  opacity: 50%;
+}

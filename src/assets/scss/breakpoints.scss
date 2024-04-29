@@ -1,0 +1,45 @@
+// Media breakpoints defined in settings
+$break-xs: 600px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-x-lg: 1200px;
+
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mq_breakpoints
+
+// Media query mixin
+@mixin media($screen) {
+  /* Extra small devices (phones, 600px and down) */
+  @if $screen == xs {
+    @media only screen and (max-width: $break-xs) {
+      @content;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @else if $screen == sm {
+    @media only screen and (min-width: $break-xs) {
+      @content;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @else if $screen == md {
+    @media only screen and (min-width: $break-md) {
+      @content;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @else if $screen == lg {
+    @media only screen and (min-width: $break-lg) {
+      @content;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @else if $screen == xlg {
+    @media only screen and (min-width: $break-x-lg) {
+      @content;
+    }
+  }
+}

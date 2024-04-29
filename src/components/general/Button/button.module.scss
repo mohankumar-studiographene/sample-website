@@ -1,0 +1,63 @@
+.btn{
+  height: 45px;
+  line-height: 45px;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+  .btn-loader {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  &.btn-default {
+    color: #fff;
+    background-color: #f16d4d;
+    &[disabled] {
+      background-color: #d5d5d5;
+      color: #999797;
+      cursor: no-drop;
+    }
+    .btn-loader {
+      border: 2px solid #f69078;
+      border-left: 2px solid #f3f3f3;
+      border-top: 2px solid #f3f3f3;
+    }
+  }
+
+  &.btn-outlined {
+    color: #f16d4d;
+    border: 1px solid #f16d4d;
+    background-color: #fff;
+    &[disabled] {
+      color: #d5d5d5;
+      border: 1px solid #d5d5d5;
+      cursor: no-drop;
+      svg {
+        path {
+          fill: #333;
+        }
+      }
+    }
+    .btn-loader {
+      border: 2px solid #f16d4d;
+      border-left: 2px solid #f2f2f2;
+      border-top: 2px solid #f2f2f2;
+    }
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
