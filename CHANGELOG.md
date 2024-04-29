@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.1-hf3](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0-hf3...v0.1.1-hf3) (2024-04-29)
+
+
+### Bug Fixes
+
+* comment include-component-in-tag ([6d30866](https://github.com/mohankumar-studiographene/sample-website/commit/6d308663eaed204d2f8109a9c50f4835029af2ba))
+* hotfix branch ([a5cb65b](https://github.com/mohankumar-studiographene/sample-website/commit/a5cb65b70928d783916ad24a83b0efce1e3e0ca1))
+* include-component-in-tag ([6fda88b](https://github.com/mohankumar-studiographene/sample-website/commit/6fda88b95aa2846cc72fcab40d8ccc14d1b15a0a))
+* on hotfix as default branch ([2e616b4](https://github.com/mohankumar-studiographene/sample-website/commit/2e616b466d8a0306fc43f771e66c5c7502177ae6))
+* on hotfix branch ([7cee086](https://github.com/mohankumar-studiographene/sample-website/commit/7cee086ea8707422584587b3ce949b1e3df1c35d))
+* on the hotfix branch ([01cf63b](https://github.com/mohankumar-studiographene/sample-website/commit/01cf63bb5e0ec837b7c4aa423060eb8b10d9262f))
+* uncomment include-component-in-tag ([07ad513](https://github.com/mohankumar-studiographene/sample-website/commit/07ad513d3a2f34a519494d7c1f02a1e86a34d486))
+
 ## 0.1.0-hf3 (2024-04-29)
 
 
