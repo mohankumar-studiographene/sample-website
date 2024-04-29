@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0-hf3](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0-hf3...v0.1.0-hf3) (2024-04-29)
+## [0.1.0](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0...v0.1.0) (2024-04-29)
 
 
 ### Features
