@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0...v0.2.0) (2024-04-29)
+
+
+### Features
+
+* second release ([97cb827](https://github.com/mohankumar-studiographene/sample-website/commit/97cb827660f14280b238a0e73400d595365d8f1a))
+
 ## [0.1.0](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0...v0.1.0) (2024-04-29)
 
 
@@ -16,5 +23,3 @@
 * hf3 main PR closed ([7ba456e](https://github.com/mohankumar-studiographene/sample-website/commit/7ba456e3d674310cbdb1483d78b8ca8028afd593))
 * on main default branch ([f8beb59](https://github.com/mohankumar-studiographene/sample-website/commit/f8beb59893afe316e38495abbcde4ace9531c176))
 * on main non default branch ([f1aae4a](https://github.com/mohankumar-studiographene/sample-website/commit/f1aae4a7aa8694ca8552bdee65702754ab8364e0))
-
-
