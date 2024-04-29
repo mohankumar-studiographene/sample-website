@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1-hf3](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0-hf3...v0.1.1-hf3) (2024-04-29)
+
+
+### Bug Fixes
+
+* on main default branch ([f8beb59](https://github.com/mohankumar-studiographene/sample-website/commit/f8beb59893afe316e38495abbcde4ace9531c176))
+* on main non default branch ([f1aae4a](https://github.com/mohankumar-studiographene/sample-website/commit/f1aae4a7aa8694ca8552bdee65702754ab8364e0))
+
 ## 0.1.0-hf3 (2024-04-29)
 
 
