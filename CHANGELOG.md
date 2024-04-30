@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/mohankumar-studiographene/sample-website/compare/v0.2.0...v0.3.0) (2024-04-30)
+
+
+### Features
+
+* **changelog:** placeholder ([2691559](https://github.com/mohankumar-studiographene/sample-website/commit/2691559c134f330d01a8eb29166657187620148c))
+
+
+### Bug Fixes
+
+* **placeholder:** placeholder ([5e856da](https://github.com/mohankumar-studiographene/sample-website/commit/5e856da738cdbd5ed2e945c60503a223688a7a30))
+
 ## [0.2.0](https://github.com/mohankumar-studiographene/sample-website/compare/v0.1.0...v0.2.0) (2024-04-29)
 
 
